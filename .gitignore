@@ -1,12 +1,15 @@
-#Common
-bin/
-target/
-
-#IntelliJ
+# IntelliJ
+build/
 .idea/
 *.iml
 
-#Eclipse
+# Eclipse
+bin/
+target/
 .settings/
 .classpath
 .project
+
+# Gradle
+gradle/
+.gradle/

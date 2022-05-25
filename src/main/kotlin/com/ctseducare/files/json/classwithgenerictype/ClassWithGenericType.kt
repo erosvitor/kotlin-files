@@ -4,5 +4,5 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 class ClassWithGenericType<T>(
-  val value1InClassWithGenericType: T
+    val value1InClassWithGenericType: T
 )
